@@ -1,0 +1,12 @@
+Name,Surname,Is_name_generic,Is_surname_generic,Is_record_generic
+Gustav,Silvo,1,0,0
+Hein,Beukes,0,0,0
+Admin,None Found,1,0,0
+ConferenceRoom,ConferenceRoom,1,1,1
+Admin,Hein,1,0,0
+JHB-SRV-01,None Found,1,0,0
+Jacques,Merwe,1,0,0
+Johan,Coetzee,0,0,0
+Room2,None Found,1,0,0
+None Found,Room3,0,1,0
+Server,JHB,1,1,1
