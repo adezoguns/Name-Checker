@@ -14,7 +14,7 @@ root= None
 data=pd.read_excel("Gustav2.xlsx")
 
     
-def Check():
+def check():
     
     global data
 
@@ -39,7 +39,7 @@ def Check():
     else:
         label1.config(text="Enter a word!")
     
-def SelectFile():
+def select_file():
     
     global data
     data=pd.DataFrame(data)
@@ -149,11 +149,11 @@ outputName = Label(frame1, text="Output", bg="green", height=2, width=10 )
 outputName.pack(side=TOP)
 
 
-myButton1 = Button(frame3, text="Check name", command=Check)
+myButton1 = Button(frame3, text="Check name", command=check)
 myButton1.pack(side=TOP)
    	
    
-myButton = Button(frame3, text="Select csv file", command=SelectFile)
+myButton = Button(frame3, text="Select csv file", command=select_file)
 myButton.pack( side=TOP)
  
 
